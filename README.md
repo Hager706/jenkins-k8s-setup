@@ -23,8 +23,8 @@ minikube start
 
 ### 3️⃣ Deploy Jenkins on Kubernetes  
 ```sh
-kubectl apply -f jenkins-deployment.yaml
-kubectl apply -f jenkins-service.yaml
+kubectl apply -f jenkins-deployment.yml
+kubectl apply -f jenkins-service.yml
 ```
 
 ### 4️⃣ Get Jenkins URL  
@@ -36,7 +36,7 @@ Copy and open the **URL** in your browser to access Jenkins.
 ---
 
 ## 📂 Repository Files  
-- **`jenkins-deployment.yaml`** → Deploys Jenkins as a pod.  
-- **`jenkins-service.yaml`** → Exposes Jenkins with a Kubernetes service.  
+- **`jenkins-deployment.yml`** → Deploys Jenkins as a pod.  
+- **`jenkins-service.yml`** → Exposes Jenkins with a Kubernetes service.  
 
 ---
